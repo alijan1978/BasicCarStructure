@@ -17,11 +17,20 @@ public class Main {
         System.out.println(engine.weight);
 
 
+
         Colors colors=new Colors();
         colors.colorLights="True";
         colors.colorTire="False";
         colors.colorWindows="True";
 
+
+
+        Lights lights=new Lights();
+
+        lights.color="Red";
+        lights.size="15cm";
+        lights.intensity="2344lumen";
+        
 
 
     }
