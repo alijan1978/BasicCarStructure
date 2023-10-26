@@ -17,6 +17,12 @@ public class Main {
         System.out.println(engine.weight);
 
 
+        Colors colors=new Colors();
+        colors.colorLights="True";
+        colors.colorTire="False";
+        colors.colorWindows="True";
+
+
 
     }
 }
