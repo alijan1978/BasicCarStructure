@@ -17,6 +17,12 @@ public class Main {
         System.out.println(engine.weight);
 
 
+        Lights lights=new Lights();
+
+        lights.color="Red";
+        lights.size="15cm";
+        lights.intensity="2344lumen";
+        
 
     }
 }
